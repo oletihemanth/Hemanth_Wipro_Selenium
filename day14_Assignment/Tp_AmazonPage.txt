@@ -1,0 +1,64 @@
+Test Plan Identifier: tp-amz-001
+
+1. Introduction
+This test plan describes the approach, scope, objectives, and responsibilities for testing the Amazon Registration Process.
+The purpose is to ensure that new users can successfully create an account with valid details, receive proper error messages for invalid inputs, complete OTP verification, and log in without issues.
+
+2. Test Items
+The following items in the registration process will be tested:
+Input fields: Name, Email/Mobile, Password, Re-enter Password
+Continue and Create Account buttons
+OTP Generation and Verification (Email/Mobile)
+Error messages for invalid/blank inputs
+Account creation with valid details
+
+3. Features to Be Tested
+Input field validation (Name, Email/Mobile, Password, Re-enter Password)
+Error messages for invalid/blank inputs
+OTP generation and handling: valid OTP, invalid OTP, expired OTP
+Successful account creation with valid details
+Post-registration login validation
+
+4. Features Not to Be Tested
+Conditions of Use link
+Privacy Notice link
+
+5. Approach
+Testing Type: Manual Testing, Black Box Testing (Functional Testing)
+
+6. Item Pass/Fail Criteria
+suspension criteria and resumption req. = 5/8/2025 suspension.
+
+7. Test Deliverables
+Test Case Document
+Test Reports
+Test Plan
+Test Summary Report
+Test Bug Report
+Test Analysis Report
+Review Document
+Bug Analysis Report
+
+8. Environmental Needs
+Operating System: Windows 11 PC
+Browsers: Google Chrome, Mozilla Firefox
+Devices: Desktop, Mobile, Tablet
+Tools: Microsoft Excel (for test cases), Selenium WebDriver (for automation scope), Network access
+
+9. Responsibilities
+Hemanth – Prepare Test Cases and Test Analysis Reports
+
+10. Staffing and Training Needs
+Training in Selenium WebDriver 
+
+11. Schedule
+Planned Execution Date: 05/08/2025
+
+12. Risks and Contingencies
+No major risks identified.
+
+13. Approvals
+
+Manager: [Vaishali Mam]
+
+Tester: Hemanth

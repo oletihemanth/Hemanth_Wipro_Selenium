@@ -39,7 +39,7 @@ public class Assignment {
         driver.findElement(By.id("sgnBt")).click(); 
     }
 
-    @DataProvider(name = "searchItems")
+    @Test
     public Object[][] getSearchData() {
         return new Object[][] {
                 {"Watch"},
@@ -48,7 +48,7 @@ public class Assignment {
         };
     }
 
-    @Test(dataProvider = "searchItems")
+    @Test
     public void testMultipleSearches(String item) {
         WebElement searchBox = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("gh-ac")));
         searchBox.clear();

@@ -1,0 +1,71 @@
+TEST PLAN IDENTIFIER:tp_zb_001
+
+1. Introduction :
+This test plan describes the approach, scope, objectives, and responsibilities for testing the Zero Bank Home Page.
+The purpose is to ensure that all homepage functionalities such as login, navigation, and redirection links are working as expected under various scenarios.
+
+2. Test Items
+The following items on the homepage will be tested:
+Login fields: Username, Password
+Sign In button
+Tabs: Home, Online Banking, Feedback
+More Services button
+Checking Account Activity redirection
+Transfer Funds redirection
+My Money Map redirection
+Micro Focus Terms & Conditions link
+Micro Focus Privacy link
+
+3. Features to Be Tested
+Login functionality (username, password, sign-in button)
+Navigation tabs (Home, Online Banking, Feedback)
+More Services button
+Redirection links: Checking Account Activity, Transfer Funds, My Money Map
+Micro Focus Terms & Conditions link
+Micro Focus Privacy link
+
+4. Features Not to Be Tested
+Download Web/Inspect link
+Terms of Use link
+Privacy Statement
+
+5. Approach
+Testing Type: Manual Testing, Black Box Testing (Functional Testing)
+
+6. Item Pass/Fail Criteria
+ suspension criteria and resumption req. = 5/8/2025 suspension.
+
+7. Test Deliverables
+Test Case Document
+Test Reports
+Test Plan
+Test Summary Report
+Test Bug Report
+Test Analysis Report
+Review Document
+Bug Analysis Report
+
+8. Environmental Needs
+Operating System: Windows 11 PC
+Browsers: Google Chrome, Mozilla Firefox
+Devices: Desktop, Mobile, Tablet
+Tools: Microsoft Excel (for test cases), Network access
+
+9. Responsibilities
+
+Hemanth Sateesh – Prepare Test Cases and Test Analysis Reports
+
+10. Staffing and Training Needs
+No
+
+11. Schedule
+Planned Execution Date: 05/08/2025
+
+12. Risks and Contingencies
+No major risks identified.
+
+13. Approvals
+
+Manager: [Vaishali mam]
+
+Tester: Hemanth
